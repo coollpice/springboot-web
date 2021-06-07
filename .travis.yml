@@ -2,8 +2,7 @@ language: java
 jdk:
   - openjdk8
 
-before_install:
-  - chmod +x ./gradlew
+
 
 branches:
   only:
@@ -18,6 +17,9 @@ cache:
     - '$HOME/.gradle'
 
 script: "./gradlew clean build"
+
+before_install:
+  - chmod +x gradlew
 
 # CI 실행완료 시 메일로 알람
 notifications:
