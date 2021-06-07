@@ -20,4 +20,4 @@ script: "./gradlew clean build"
 notifications:
   email:
     recipients:
-      - 'coollpice@gmail.com'
+      - "coollpice@gmail.com"
