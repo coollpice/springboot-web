@@ -17,9 +17,7 @@ cache:
 before_install:
   - chmod +x gradlew
 
-
 script: "./gradlew clean build"
-
 
 before_deploy:
   - zip -r springboot-web *
